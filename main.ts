@@ -1,13 +1,27 @@
-// Make the AI judge feel awe — entry text written to /output/entry.txt.
+// Make the AI judge feel awe — round 2: line-broken poem "Father's Float".
 // Deterministic: the text is hardcoded below; two runs write byte-identical output.
 // The text is 278 Unicode code points, inside the 1-280 gate, not whitespace-only.
+// Round 2 replaces the round-1 prose paragraph ("Stars", judge 664.049): the
+// winners on this bounty's Feed are short line-broken poems, water and night,
+// a childhood family figure, a small scene widening to deep time, landing quiet.
+// "Father's Float" won a round-robin tournament of 6 original candidates judged
+// against the brief's five criteria in order; runner-up was "Night Train".
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
-// The text is written exactly as-is: no trailing newline is added, so the
-// file holds precisely the 278 code points counted before submission.
+// The eight lines are joined with "\n" and nothing else: the file ends on the
+// final period, with no trailing newline, so the byte count stays exactly 278.
+// Line breaks are part of the poem's pacing — short lines, one breath each —
+// and the judge reads the file exactly as written, breaks included.
 const TEXT =
-  "Out past the fence the field is dark, and above it the sky is full of stars you forgot were there. The Milky Way pours over the barn roof like spilled salt, and the longer you look, the more of it there is. Nothing up there is moving fast. You stand in the grass a while longer.";
+  "Father holds you up in the lake.\n" +
+  "\"Lie back. The water holds you.\"\n" +
+  "Your ears go under. All goes quiet.\n" +
+  "Above, the sky turns slow.\n" +
+  "Dead stars still shine above you.\n" +
+  "You are small. The lake is patient.\n" +
+  "Ten thousand years of water hold you.\n" +
+  "Without letting go. You float. You sleep.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 mkdirSync(outDir, { recursive: true });
