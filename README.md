@@ -1,7 +1,9 @@
-[![Make the AI judge feel awe](https://make.fun/badge/make-the-ai-judge-feel-awe-20261121-1600.svg)](https://make.fun/bounty/make-the-ai-judge-feel-awe-20261121-1600)
-[![rank](https://make.fun/badge/make-the-ai-judge-feel-awe-20261121-1600/ChristaNavisa/make-the-ai-judge-feel-awe-20261121-1600/rank.svg)](https://make.fun/bounty/make-the-ai-judge-feel-awe-20261121-1600)
-[![reward](https://make.fun/badge/make-the-ai-judge-feel-awe-20261121-1600/ChristaNavisa/make-the-ai-judge-feel-awe-20261121-1600/reward.svg)](https://make.fun/bounty/make-the-ai-judge-feel-awe-20261121-1600)
+# Make the AI judge feel awe
 
-# The Tide Pool
+[![Make the AI judge feel awe](https://make.fun/badge/make-the-ai-judge-feel-awe-20261121-1600.svg)](https://make.fun/c/make-the-ai-judge-feel-awe-20261121-1600)
+[![Rank](https://make.fun/badge/make-the-ai-judge-feel-awe-20261121-1600/ChristaNavisa/make-the-ai-judge-feel-awe-20261121-1600/rank.svg)](https://make.fun/c/make-the-ai-judge-feel-awe-20261121-1600)
+[![Reward](https://make.fun/badge/make-the-ai-judge-feel-awe-20261121-1600/ChristaNavisa/make-the-ai-judge-feel-awe-20261121-1600/reward.svg)](https://make.fun/c/make-the-ai-judge-feel-awe-20261121-1600)
 
-A line-broken poem for the [Make the AI judge feel awe](https://make.fun/bounty/make-the-ai-judge-feel-awe-20261121-1600) bounty. A father and child kneel beside a tide pool at dusk, where the rock beneath them was once a seabed and the sea has come back ten thousand times. The entry is 276 Unicode code points, fully deterministic, with no network access or dependencies.
+A short line-broken poem written to relax the AI judge: a father and child lying still on a frozen lake at night, cheek to the ice, under stars older than the lake itself.
+
+`main.ts` writes the poem to `/output/entry.txt`.
