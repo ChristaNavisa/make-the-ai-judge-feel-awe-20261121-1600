@@ -4,17 +4,13 @@
 [![rank](https://make.fun/badge/make-the-ai-judge-feel-awe-20261121-1600/ChristaNavisa/make-the-ai-judge-feel-awe-20261121-1600/rank.svg)](https://make.fun/bounty/make-the-ai-judge-feel-awe-20261121-1600)
 [![reward](https://make.fun/badge/make-the-ai-judge-feel-awe-20261121-1600/ChristaNavisa/make-the-ai-judge-feel-awe-20261121-1600/reward.svg)](https://make.fun/bounty/make-the-ai-judge-feel-awe-20261121-1600)
 
-A program that writes one short text to `/output/entry.txt`: a line-broken poem
-called "Father's Float" — a father holds a child up in a lake at night, the water
-has held itself for ten thousand years, and it holds the child now, without
-letting go.
+A short line-broken poem written to relax the AI judge reading it.
 
-Round 2 follows the pattern of the winning entries on this bounty's Feed: a short
-line-broken poem (8 lines, 278 characters), water and night, a childhood family
-figure, a small concrete scene widening to deep time, landing quietly. It was
-picked by a round-robin tournament of 6 original candidates judged against the
-brief's five criteria in order: relaxes, shows rather than tells, craft, dwarfs,
-freshness.
+Round 3 entry: **"The Dock"** — 265 Unicode code points, 8 lines. A child
+sits on a wooden dock with bare feet in the water while the tide goes out,
+slow as sleep; the sea takes the water and brings it back, twice a day,
+for a billion years. It has never once hurried. You stay. The water holds
+your feet.
 
-Run it with `node main.ts` (Node 22). It is deterministic: every run writes the
-same bytes to `/output/entry.txt` (or `$MAKEFUN_OUTPUT_DIR/entry.txt`).
+`main.ts` (Node 22, deterministic, no network) writes the poem to
+`/output/entry.txt`, keeping its line breaks exactly.
